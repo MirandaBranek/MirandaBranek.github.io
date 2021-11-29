@@ -1,4 +1,4 @@
-@charset "utf-8";
+c@charset "utf-8";
 /*
    sample start file for final project - educational use only
    
@@ -81,8 +81,9 @@ nav ul li a:hover {
 }
 
 figure{
+	float: left;
     padding-top: 10px;
-    text-align: center;
+    
 }
 
 figcaption {
@@ -114,6 +115,13 @@ h3 {
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
+
+h4 {
+   color: orange;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
 
 footer {
     width: 910px;
@@ -180,4 +188,11 @@ tr:nth-child(even) {background-color: orange;}
 th {
  
   color: black;
+}
+
+/* Video */
+
+iframe {
+	display: center;
+	width: 450px;
 }
