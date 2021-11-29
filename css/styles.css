@@ -1,4 +1,4 @@
-c@charset "utf-8";
+@charset "utf-8";
 /*
    sample start file for final project - educational use only
    
@@ -193,6 +193,5 @@ th {
 /* Video */
 
 iframe {
-	display: center;
 	width: 450px;
 }
